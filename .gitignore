@@ -10,3 +10,5 @@ db_data/
 
 # Env
 .env
+
+vendor/
