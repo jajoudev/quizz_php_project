@@ -1,0 +1,12 @@
+# MySQL
+mysql/
+*.sock
+*.pid
+*.err
+
+# Docker volumes
+data/
+db_data/
+
+# Env
+.env
