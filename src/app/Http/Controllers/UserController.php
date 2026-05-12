@@ -9,10 +9,10 @@ use Illuminate\View\View;
 class QuizzController extends Controller
 {
     public function index(): View {
-        $quizzs = User::all();
+        $users = User::all();
 
-        var_dump($quizzs);
+        var_dump($users);
 
-        return view("users", ["user" => $quizzs]);
+        return view("users", ["user" => $users]);
     }
 }
