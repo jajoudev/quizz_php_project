@@ -11,8 +11,6 @@ class UserController extends Controller
     public function index(): View {
         $users = User::all();
 
-        var_dump($users);
-
-        return view("users", ["user" => $users]);
+        return view("users", ["users" => $users]);
     }
 }

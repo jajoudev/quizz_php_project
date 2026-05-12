@@ -11,6 +11,6 @@ class QuizzController extends Controller
     public function index(): View {
         $quizzs = Quizz::all();
 
-        return view("index", ["quizzs" => $quizzs]);
+        return view("quizz", ["quizzs" => $quizzs]);
     }
 }
