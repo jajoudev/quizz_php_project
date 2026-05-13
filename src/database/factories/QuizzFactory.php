@@ -17,8 +17,7 @@ class QuizzFactory extends Factory
     public function definition(): array
     {
         return [
-            "title" => fake()->title(),
-            "logo_url" => fake()->url()
+
         ];
     }
 }

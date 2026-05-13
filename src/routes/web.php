@@ -8,8 +8,8 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProfileController;
 
 Route::get("/", [HomeController::class, 'index'])->middleware(['auth']);
-Route::get("/quizz", [QuizzController::class, 'index'])->middleware(['auth']);
-Route::get("/user", [UserController::class, 'index'])->middleware(["auth"]);
+// Route::get("/quizz", [QuizzController::class, 'index'])->middleware(['auth']);
+// Route::get("/user", [UserController::class, 'index'])->middleware(["auth"]);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
