@@ -9,7 +9,7 @@ services:
         image: nginx:alpine
         container_name: nginx
         restart: unless-stopped
-        tty: true
+        tty: truedocker build -t welcome-to-docker .
         ports:
             - "8001:8001"
         volumes: 
