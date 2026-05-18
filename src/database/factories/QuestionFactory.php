@@ -17,10 +17,7 @@ class QuestionFactory extends Factory
     public function definition(): array
     {
         return [
-            "title" => fake()->title(),
-            "position" => fake()->randomDigit(),
-            "updated_at" => fake()->dateTime(),
-            "created_at" => fake()->dateTime()
+            
         ];
     }
 }
